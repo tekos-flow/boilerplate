@@ -1,6 +1,6 @@
 {
-    "name": "Small Sharp Tool",
-    "description": "This app does one little thing, and does it well.",
+    "name": "Tekos Generic Template ",
+    "description": "This is the default tekos template.",
     "flow-file":"flow.json",
     "tekos-bot-required": true,
     "keywords": [
@@ -8,19 +8,19 @@
         "HTML5",
         "scalpel"
     ],
-    "website": "https://small-sharp-tool.com/",
-    "repository": "https://github.com/jane-doe/small-sharp-tool",
-    "logo": "https://small-sharp-tool.com/logo.svg",
+    "website": "https://tekos.co",
+    "repository": "https://github.com/tekos-flow/sample",
+    "logo": "https://tekos.co/wp-content/uploads/2019/06/tekos-logo.png",
     "env": {
         "SECRET_TOKEN": {
-            "description": "A secret key for verifying the integrity of signed cookies.",
+            "description": "A secret key for segment",
             "generator": "secret"
         },
         "WEB_CONCURRENCY": {
             "description": "The number of processes to run.",
             "value": "5"
         },
-        "STRIPE": {
+        "STRIPE_KEY": {
             "description": "Stripe key.",
             "required": "false"
         }
