@@ -4,9 +4,9 @@
     "flow-file":"flow.json",
     "tekos-bot-required": true,
     "keywords": [
-        "productivity",
-        "HTML5",
-        "scalpel"
+        "bot",
+        "new template",
+        "sample"
     ],
     "website": "https://tekos.co",
     "repository": "https://github.com/tekos-flow/sample",
