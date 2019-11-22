@@ -25,4 +25,33 @@
             "required": "false"
         }
     }
+},
+{
+    "name": "Tekos Second Generic Template ",
+    "description": "This is the Second default tekos template.",
+    "flow-file":"flow-2.json",
+    "tekos-bot-required": true,
+    "keywords": [
+        "bot",
+        "new template",
+        "sample"
+    ],
+    "website": "https://tekos.co",
+    "repository": "https://github.com/tekos-flow/sample",
+    "logo": "https://tekos.co/wp-content/uploads/2019/06/tekos-logo.png",
+    "env": {
+        "SECRET_TOKEN": {
+            "description": "A secret key for segment",
+            "generator": "secret"
+        },
+        "WEB_CONCURRENCY": {
+            "description": "The number of processes to run.",
+            "value": "5"
+            "required": "true"
+        },
+        "STRIPE_KEY": {
+            "description": "Stripe key.",
+            "required": "false"
+        }
+    }
 }
