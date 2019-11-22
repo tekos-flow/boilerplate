@@ -46,7 +46,7 @@
         },
         "WEB_CONCURRENCY": {
             "description": "The number of processes to run.",
-            "value": "5"
+            "value": "5",
             "required": "true"
         },
         "STRIPE_KEY": {
