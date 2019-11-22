@@ -1,0 +1,1 @@
+[{"id":"43a8cd72.dd8184","type":"chatbot-text","z":"8edf0186.6176","name":"","message":[{"message":"Hello World"}],"x":820,"y":176,"wires":[[]]},{"id":"e52f197e.c27f08","type":"inject","z":"8edf0186.6176","name":"","topic":"","payload":"","payloadType":"date","repeat":"","crontab":"","once":false,"onceDelay":0.1,"x":638,"y":176,"wires":[["43a8cd72.dd8184"]]}]
