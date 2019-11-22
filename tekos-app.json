@@ -1,6 +1,7 @@
 {
     "name": "Small Sharp Tool",
     "description": "This app does one little thing, and does it well.",
+    "flow-file":"flow.json",
     "tekos-bot-required": true,
     "keywords": [
         "productivity",
