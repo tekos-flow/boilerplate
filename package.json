@@ -24,11 +24,11 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your Bot Token",
-            "bot": "bot_token"
+            "tekos_bot_token": "bot_token"
         },
          "BOT_ID": {
             "description": "Your Bot ID",
-            "bot": "bot_id"
+            "tekos_bot_id": "bot_id"
         },
         "SECRET_TOKEN": {
             "description": "A secret key for segment",
