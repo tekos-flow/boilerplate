@@ -22,14 +22,6 @@
         "Tekos"
     ],
     "env": {
-        "BOT_TOKEN": {
-            "description": "Your Bot Token",
-            "tekos_bot_token": "bot_token"
-        },
-         "BOT_ID": {
-            "description": "Your Bot ID",
-            "tekos_bot_id": "bot_id"
-        },
         "SECRET_TOKEN": {
             "description": "A secret key for segment",
             "generator": "secret"
