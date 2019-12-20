@@ -9,7 +9,7 @@
     },
     "node-red": {
         "settings": {
-            "flowFile": "flows.json",
+            "flowFile": "flow.json",
             "credentialsFile": "flows_cred.json"
         }
     },
