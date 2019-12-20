@@ -2,8 +2,7 @@
     "name": "Tekos boilerplate Template ",
     "description": "This is the default boilerplate tekos template.",
     "version": "0.0.1",
-  "flow-file":"flow.json",
- "tekos-bot-required": true,
+    "tekos-bot-required": true,
     "dependencies": {
         "node-red-contrib-tekosbot": "0.0.29",
         "node-red-node-email": "1.7.3"
