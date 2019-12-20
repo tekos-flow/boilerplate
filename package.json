@@ -23,13 +23,12 @@
         "Tekos"
     ],
     "env": {
-
-         "BOT_TOKEN": {
+        "BOT_TOKEN": {
             "description": "Your Bot Token",
             "bot": "bot_token"
         },
          "BOT_ID": {
-            "description": "Your Bot ID,
+            "description": "Your Bot ID",
             "bot": "bot_id"
         },
         "SECRET_TOKEN": {
