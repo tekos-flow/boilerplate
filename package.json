@@ -1,0 +1,48 @@
+{
+    "name": "Tekos boilerplate Template ",
+    "description": "This is the default boilerplate tekos template.",
+    "version": "0.0.1",
+/////////////////////////////////////////    "flow-file":"flow.json",
+/////////////////////////////////////////    "tekos-bot-required": true,
+    "dependencies": {
+        "node-red-contrib-tekosbot": "0.0.29",
+        "node-red-node-email": "1.7.3"
+    },
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
+    }
+    "website": "https://tekos.co",
+    "repository": "https://github.com/tekos-flow/boilerplate",
+    "logo": "https://tekos.co/wp-content/uploads/2019/06/tekos-logo.png",
+    "keywords": [
+        "bot",
+        "boilerplate",
+        "Tekos"
+    ],
+    "env": {
+
+         "BOT_TOKEN": {
+            "description": "Your Bot Token,
+            "bot": "bot_token"
+        },
+         "BOT_ID": {
+            "description": "Your Bot ID,
+            "bot": "bot_id"
+        },
+        "SECRET_TOKEN": {
+            "description": "A secret key for segment",
+            "generator": "secret"
+        },
+        "WEB_CONCURRENCY": {
+            "description": "The number of processes to run.",
+            "value": "5"
+        },
+        "STRIPE_KEY": {
+            "description": "Stripe key.",
+            "required": "false"
+        }
+    }
+}
