@@ -5,7 +5,9 @@
     "tekos-bot-required": true,
     "dependencies": {
         "node-red-contrib-tekosbot": "0.0.29",
-        "node-red-node-email": "1.7.3"
+        "node-red-node-email": "1.7.3",
+        "node-red-contrib-dialogflowv2-api": "1.0.4",
+        "node-red-contrib-process-env": "0.2.5"
     },
     "node-red": {
         "settings": {
