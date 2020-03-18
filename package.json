@@ -29,7 +29,7 @@
     "env": {
         "HOMESERVER": {
             "description": "Your Home server",
-            "value": "m.tekos.co"
+            "value": "m.tekos.co",
             "required": "true"
         }
     }
