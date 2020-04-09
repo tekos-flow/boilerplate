@@ -26,19 +26,5 @@
         "bot",
         "boilerplate",
         "Tekos"
-    ],
-    "env": {
-        "SECRET_TOKEN": {
-            "description": "A secret key for segment",
-            "generator": "secret"
-        },
-        "WEB_CONCURRENCY": {
-            "description": "The number of processes to run.",
-            "value": "5"
-        },
-        "STRIPE_KEY": {
-            "description": "Stripe key.",
-            "required": "false"
-        }
-    }
+    ]
 }
