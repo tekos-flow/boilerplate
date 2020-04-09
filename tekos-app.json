@@ -10,19 +10,5 @@
     ],
     "website": "https://tekos.co",
     "repository": "https://github.com/tekos-flow/boilerplate",
-    "logo": "https://tekos.co/wp-content/uploads/2019/06/tekos-logo.png",
-    "env": {
-        "SECRET_TOKEN": {
-            "description": "A secret key for segment",
-            "generator": "secret"
-        },
-        "WEB_CONCURRENCY": {
-            "description": "The number of processes to run.",
-            "value": "5"
-        },
-        "STRIPE_KEY": {
-            "description": "Stripe key.",
-            "required": "false"
-        }
-    }
+    "logo": "https://tekos.co/wp-content/uploads/2019/06/tekos-logo.png"
 }]
